@@ -5,7 +5,7 @@ import { defineConfig } from 'cypress';
 export default defineConfig({
   e2e: {
     ...nxE2EPreset(__filename, {
-      cypressDir: 'src',
+      cypressDir: 'cypress',
       webServerCommands: {
         default: 'nx run cleaning-calculator:serve:development',
         production: 'nx run cleaning-calculator:serve:production',

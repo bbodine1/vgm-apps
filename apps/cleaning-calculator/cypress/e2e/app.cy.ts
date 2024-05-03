@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('cleaning-calculator-e2e', () => {
+describe('cleaning-calculator', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
